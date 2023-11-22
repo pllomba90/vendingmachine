@@ -1,16 +1,43 @@
 .App {
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.App a{
+  color: white;
+  margin: 15px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.App a:hover{
+  color: red;
+}
+.menu{
+  background-color: rgb(173, 137, 137, 0.408);
+  border-radius: 75%;
+  height: 400px;
+  width: 600px;
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.snack-space{
+  background-color: rgb(173, 137, 137, 0.408);
+  border-radius: 75%;
+  height: 400px;
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  align-items: center; 
+  text-align: center;
+  margin: 10px auto;
+}
+body{
+  background-image: url("https://images.squarespace-cdn.com/content/v1/5d4b249616f93e000149aebd/1622465214140-5FXBUNWDCENUOOKMKYC0/jonjo-hemmens-01-darker.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .App-header {
@@ -24,15 +51,3 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
